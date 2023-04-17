@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#menu{ font-size: 22px;
+       padding: 0;
+}
+
+div li{ display: inline;
+}
+
+div h5{ line-height: 0%;
+        margin-bottom: 1%;
+}

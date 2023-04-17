@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/*Config Geral do Corpo da Página=====================*/
+body {
+    margin: auto;
+    background-color: #F2E1C2;
+}
+
+/*Config Dimensões das Tabelas =================*/
+.tabela,
+.nav,
+.tabela-quemsou,
+.conhecimentos,
+.galeria-projetos,
+.top-titulo,
+.top-titulo-projetos,
+.msgContatos {
+    width: 80%;
+}
+
+.tabela{
+    margin-top: -10px;
+}
+
+.tabela th {
+    text-align: left;
+    font-family: open Sans;
+}
+
+.nav{
+    margin-left: 12%;
+}
+
+.top-titulo-projetos{
+    margin-top: -1%;
+}
+
+/*Config Cabeçalho ==============================*/
+.cabecalho {
+    background-image: linear-gradient(#3C4D87, #343A48);
+    width: 100%;
+}
+
+.cabecalho h1 {
+    margin-bottom: 1%;
+    font-family: open sans;
+    color: white;
+    font-size: 55px;
+}
+
+.cabecalho h4 {
+    margin-top: 0%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#face-logo img {
+    border-radius: 100%;
+    margin: 10px 10px 10px 180px;
+}
+
+/* Config dos Menus do Site ===================================*/
+.menu-h a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-h {
+    font-family: caveat;
+    font-size: 45px;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.menu-h td a:hover {
+    border-radius: 10px 10px;
+    background-color: #333333;
+    color: white;
+    display: block;
+}
+
+.menu-h a:visited,
+.nav a:visited {
+    color: black;
+}
+
+/* Config Hero-Section da Página Principal =====================*/
+#menu-hero td {
+    width: 3px;
+}
+
+#hero-img {
+    border-radius: 25px 25px 25px 25px;
+    background-image: url(img/pessoa.jpg);
+    background-size: cover;
+}
+
+#hero {
+    background-color: #333333;
+    border-radius: 25px 25px 25px 25px;
+}
+
+#hero h3,
+#hero h2 {
+    font-family: Caveat;
+    color: white;
+    width: 70%;
+    line-height: 100%;
+    font-size: 40px;
+    margin-left: 20px;
+    display: block;
+}
+
+#hero h1 {
+    font-family: open Sans;
+    color: #DC963E;
+    margin-bottom: -20px;
+    font-size: 50px;
+    margin-left: 20px;
+    display: block;
+}
+
+#hero h3 {
+    font-family: Caveat;
+    color: white;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: -30px;
+}
+
+#hero a {
+    background-color: #455598;
+    padding: 24px 20px 24px 20px;
+    border-radius: 25px;
+    color: white;
+    font-family: open Sans;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+#hero-nav {
+    font-size: 22px;
+    text-align: left;
+}
+
+/*Menu de Navegação do Site na Pagina Principal===================== */
+.nav {
+    width: 70%;
+    font-size: 20px;
+}
+
+.nav th {
+    font-size: 25px;
+    font-family: Open Sans;
+    text-align: left;
+    width: 20%;
+    white-space: nowrap;
+    padding-left: 0.7%;
+
+}
+
+.nav th:hover {
+    text-decoration: underline;
+}
+
+.nav td {
+    font-size: 22px;
+    text-align: left;
+    font-family: Open sans;
+    font-weight: 500;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+footer {
+    background-color: white;
+    border-top-style: groove;
+    margin: auto;
+}
+
+footer img {
+    display: block;
+    margin: 0px auto;
+}
+
+footer p {
+    font-family: Open sans;
+    font-weight: 700;
+    font-size: larger;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+}
+
+#titulo-pg2 h2 {
+    margin-left: auto;
+}
+
+/*Config página Projetos=============================*/
+.top-titulo h1,
+.top-titulo-projetos h1 {            /* Trecho repete em outras páginas*/
+    font-family: Open sans;
+}
+
+.conhecimentos p,
+.top-titulo p,
+.top-titulo-projetos p {
+    font-family: Open sans;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.titulos-hab td h2{
+    font-family: Open sans;
+    text-align: left;
+}
+
+.conhecimentos h2 { 
+    font-family: Open sans;
+    text-align: left;
+    padding: 0%;
+    margin-left: -2%;
+}
+
+.conhecimentos h4 {
+    font-family: Open sans;
+    font-size: 20px;
+    padding: 4px;
+    line-height: 0px;
+    padding: 0;
+    margin-left: -2%;
+}
+
+.tabela-quemsou tr td h4 {
+    font-size: 20px;
+    font-family: Open sans;
+    font-weight: 500;
+}
+
+progress {
+    height: 50px;
+    width: 250px;
+}
+
+.prof1 p {
+    width: 1%;
+    white-space: nowrap;
+    font-size: 18px
+}
+
+.top-projetos h1,
+.galeria-projetos p {
+    font-family: Open sans;
+}
+
+.galeria-projetos h4 {
+    margin-top: -2%;
+    font-family: Open Sans;
+
+}
+
+.galeria-projetos p {
+    margin-top: -2%;
+    font-family: Open Sans;
+}
+
+/*Configuração da página Contatos========================*/
+.msgContatos h3 {
+    font-family: Open Sans;
+}
+
+.msgContatos ul li a {
+    font-family: Open Sans;
+}
+
+.msgContatos ul {
+    list-style-type: none;
+    font-family: Open Sans;
+    font-weight: 500;
+    padding: 0;
+}
+
+.msgContatos textarea {
+    border-radius: 7px;
+}
+
+.msgContatos label {
+    font-family: Open Sans;
+    font-weight: 500;
+}
+
+.campo {
+    border-radius: 7px;
+    height: 20px;
+}
+
+.botao-enviar {
+    background-color: #455598;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 20px;
+    border-color: black;
+    border-radius: 7px;
+}

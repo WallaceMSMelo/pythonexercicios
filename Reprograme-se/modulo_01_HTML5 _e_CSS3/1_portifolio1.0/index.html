@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Principal</title>
+  </head>
+
+  <body>
+    <header>
+      <!--Cabeçalho e trecho e responsável por imagens ajustadas ao tamanho do navegador ou dispositivo-->
+      <picture>
+        <source srcset="img/header.svg" media="(min-width: 965px)" type="image/svg+xml">
+        <source srcset="img/header-780.svg" media="(min-width: 785px)" type="image/svg+xml">
+        <source srcset="img/header-630.svg" media="(min-width: 635px)" type="image/svg+xml">
+        <source srcset="img/header-510.svg" media="(min-width: 515px)" type="image/svg+xml">
+        <source srcset="img/header-480.svg" media="(min-width: 485px)" type="image/svg+xml">
+        <source srcset="img/header-420.svg" media="(min-width: 425px)" type="image/svg+xml">
+        <img src="img/header.svg" alt="cabeçalho" />
+        </picture>
+    </header>
+    <div id="menu-h">
+      <!--Menu principal de navegaçao do site portifólio-->
+      <ul id="menu">
+        <li><a href="index.html" target="_self"><strong><em>Principal</em></strong></a></li>
+        <li><strong>:: <a href="quemsou.html" target="_self" rel="next">Quem Sou</strong></a></li>
+        <li><strong>:: <a href="projetos.html" target="_self" rel="next">Projetos</strong></a></li>
+        <li><strong>:: <a href="contato.html" target="_self" rel="next">Contato</strong></a></li>
+      </ul>
+    </div>
+    <hr />
+    <h3>Olá,</h3>
+    <!--Apresentação e inserção de imagem pessoal-->
+    <h1>Eu sou Wallace Melo</h1>
+    <picture>
+      <img src="img/wallace.png" alt="wallace-melo" width="200" />
+    </picture>
+    <h2>
+      Crio aplicações web que proporcioam uma ótima experiência de navegação
+      para o usuário.
+    </h2>
+    <hr />
+    <!-- Breve resumo e hiperlinks de navegação nas demais páginas do site -->
+    <h3>O que você vai encontrar aqui:</h3>
+    <dl>
+      <dt><a href="index.html">Principal</a></dt>
+      <dd>
+        Esta página em que você se encontra, contendo um resumo do todo site.
+      </dd>
+      <dt><a href="quemsou.html">Quem Sou</a></dt>
+      <dd>
+        Uma minibio de minha vida profissional com um resumo de minhas
+        habilidades
+      </dd>
+      <dt><a href="projetos.html">Projetos</a></dt>
+      <dd>
+        Os trabalhos mais relevantes em que atuei como designer e/ou
+        desenvolvedor web.
+      </dd>
+      <dt><a href="contato.html">Contato</a></dt>
+      <dd>
+        Os canais para você me encontrar em redes sociais, e-mail e telefone.
+      </dd>
+    </dl>
+    <footer>
+      <!-- Rodapé com hiperlinks de navegação para o site do IFES utizando polígonos de área de imagem -->
+      <hr />
+      <p>Copyright &copy 2022</p>
+      <img src="img/ifes.png" usemap="#image-map">
+      <map name="image-map">
+        <area target="_blank" alt="IFES" title="Instituto Federal do Espirito Santo" href="https://www.ifes.edu.br/"
+          coords="1,0,0,121,100,121,100,1" shape="poly">
+      </map>
+    </footer>
+  </body>
+
+</html>
